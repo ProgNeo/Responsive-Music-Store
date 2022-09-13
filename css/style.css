@@ -387,14 +387,13 @@ button {
     padding: 16px 24px 24px;
 }
 .article-image-background {
-    height: 252px;
-    border-radius: 10px 10px 0px 0px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
-.artivle-image {
-    position: absolute;
-    margin-top: -20px;
+.article-image {
+    height: 487px;
+    border-radius: 10px 10px 0px 0px;
 }
 .article-title-white {
     color: white;
